@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+} 
+/* Table  */
+table {
+    width: 80%;
+    min-height: 100vh;
+    border-collapse: collapse;
+    margin: 10px;
+}
+td, th {
+    padding: 5px;
+    border: 1px solid #ddd; 
+    border-bottom:2px solid #ddd;
+}
+th {
+    background-color: whitesmoke;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+}
+tr:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+/*|| SMALL */
+@media screen and (min-width: 576px) {
+body {
+    background-color: whitesmoke;
+    }
+}
+
+/*|| MEDIUM */
+@media screen and (min-width: 768px) {
+body {
+    background-color: blanchedalmond;
+    }    
+}
+
+/*|| LARGE */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: aliceblue;
+    }
+}
+
+/*|| XL */
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: beige;
+    }
+}
+
+/*|| MOBILE DEVICE LANDSCAPE */
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+    body {
+        background-color: bisque;
+    }
+}
